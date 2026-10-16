@@ -11,6 +11,7 @@
 #   ./scripts/fetch_data.sh                 # docs + aggregates + metadata + 1 game (114243)
 #   ./scripts/fetch_data.sh 114243 114234    # docs + aggregates + metadata + these games
 #   ./scripts/fetch_data.sh --all            # every one of the 10 sample games (~400 MB)
+#   NO_TRACKING=1 ./scripts/fetch_data.sh --all  # events + metadata only, no tracking (~20 MB)
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
@@ -84,7 +85,7 @@ for g in "${GAMES[@]}"; do
   echo "-- game $g --"
   fetch "data/matches/$g/${g}_game_data.json"
   fetch "data/matches/$g/${g}_dynamic_events.json"
-  fetch_lfs "data/matches/$g/${g}_tracking_data.jsonl.gz"
+  [[ -n "${NO_TRACKING:-}" ]] || fetch_lfs "data/matches/$g/${g}_tracking_data.jsonl.gz"
 done
 
 echo

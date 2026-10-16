@@ -15,7 +15,7 @@ to learn.** A finished project I can't explain is worth nothing, on a CV or in a
 | **First 15 minutes of debugging** | Reading tracebacks and printing intermediate tables is a core skill. After 15 min, ask for a *hint*, not a fix. |
 | **Journal entries and blog posts** | My voice, my learning. AI-written posts read as AI-written, and that undermines the CV. Claude may *review* a draft (clarity, technical errors), not rewrite it. |
 | **Choosing the final figure** | Picking the one chart that carries the argument is a judgement call I need to practise. |
-| **Git from Project 03 on**: commits, branches, pushes | A daily skill in any data job. Claude shows the commands once; after that I type them. |
+| **Committing my own work** | Keeps the history honest: my commits are mine, Claude's carry its trailer. |
 
 ## Claude does it (low learning value, or not the skill being learned)
 

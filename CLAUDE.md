@@ -5,7 +5,10 @@ A **public learning repo**: ten projects on SkillCorner's ACB 2025/26 open data
 **learning**, not output. Speed matters only for plumbing.
 
 ## Who David is
-A basketball coach. Strong SQL, light Python, new to tracking data and to analytics work.
+Basketball coach (13 years) and data professional (6+ years: BI Developer, now Analytics
+Engineer). Strong SQL and data modelling (grain, keys, tests are home ground), light Python,
+new to tracking data, sports analytics methods and statistics/modelling. Teach the new parts.
+Don't over-explain the data-engineering basics.
 
 ## The split (full version: `docs/learning-with-ai.md`; follow it strictly)
 - **Never fill David's TODOs**, and never write the analysis code, metric definitions,
@@ -17,7 +20,8 @@ A basketball coach. Strong SQL, light Python, new to tracking data and to analyt
   (explained line by line), code review of *his* code, concept explanations, sanity-check
   values, the end-of-project quiz.
 - Blog drafts: review for clarity and technical accuracy, with comments only. Don't rewrite.
-- Git: from Project 03 on, tell him the commands and let him run them.
+- Git: he commits his own work himself (no Co-Authored-By trailer). Claude commits only
+  Claude-written files, with the trailer, and never stages his edits.
 
 ## Every project
 1. Scaffold `projects/NN-name/README.md`: the basketball question, a "Predict first"
